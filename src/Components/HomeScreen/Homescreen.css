@@ -1,0 +1,76 @@
+.homescreen {
+  background-color: var(--background-color);
+  min-height: 80vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+.homescreen-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.heading {
+  flex: 4;
+}
+
+.heading > h1 {
+  color: var(--accent-color);
+}
+.heading > p {
+  font-size: 1.2rem;
+  color: var(--accent-color);
+  font-weight: none;
+}
+.heading > p:nth-child(3) {
+  font-size: 1.2rem;
+  color: var(--accent-color);
+  font-weight: none;
+  margin-bottom: 40px;
+}
+.heading h1 {
+  font-size: 4.5rem;
+}
+.heading > .contactbtn {
+  background-color: var(--button-color);
+  font-size: 1rem;
+  border: none;
+
+  padding: 15px 25px;
+  color: var(--button-text-color);
+  cursor: pointer;
+  border-radius: 8px;
+}
+.profile {
+  flex: 2;
+
+  display: flex;
+  justify-content: flex-end;
+}
+.profile > img {
+  width: 350px;
+  border-radius: 50%;
+  /* width: 100%;
+  object-fit: cover; */
+}
+
+@media screen and (max-width: 900px) {
+  .homescreen-container {
+    flex-direction: column-reverse;
+    margin-top: 20px;
+    text-align: center;
+  }
+  .heading {
+    margin-top: 20px;
+  }
+  .heading h1 {
+    font-size: 2.3rem;
+  }
+
+  .profile > img {
+    width: 200px;
+  }
+}
