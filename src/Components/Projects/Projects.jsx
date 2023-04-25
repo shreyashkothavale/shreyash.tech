@@ -3,6 +3,7 @@ import "./Projects.css";
 import Ecom from "../../assets/Ecom.png";
 import searchTheImage from "../../assets/searchtheimage.png";
 import WeatherImage from "../../assets/WeatherForecast.png";
+import TasksApp from "../../assets/Tasks-app.png";
 import { BsGithub, BsBoxArrowUpRight } from "react-icons/bs";
 const Projects = () => {
   return (
@@ -111,6 +112,41 @@ const Projects = () => {
                 </a>
               </div>
             </div>
+          </div>
+          <div className="container">
+            <div className="details">
+              <h2>Tasks App</h2>
+              <p>
+                The Task App is a user-friendly productivity tool designed to
+                users for their daily tasks and to stay organized. Built with
+                React and Framer Motion library for animations, the app provides
+                a seamless and interactive user experience. With the Task App,
+                users can easily create and prioritize their to-do lists. The
+                app's intuitive interface allows users to add new tasks quickly
+                and efficiently.
+              </p>
+              <div className="social-links">
+                <a
+                  href="https://github.com/shreyashkothavale/tasks-app"
+                  target="_blank"
+                >
+                  Code
+                  <span>
+                    <BsGithub />
+                  </span>
+                </a>
+                <a
+                  href="https://shreyashkothavale.github.io/tasks-app/"
+                  target="_blank"
+                >
+                  Live Preview
+                  <span className="arroup">
+                    <BsBoxArrowUpRight />
+                  </span>
+                </a>
+              </div>
+            </div>
+            <img src={TasksApp} alt="" />
           </div>
         </div>
       </div>
