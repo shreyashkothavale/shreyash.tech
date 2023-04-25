@@ -2,6 +2,7 @@ import React from "react";
 import "./Homescreen.css";
 import profileImg from "../../assets/MyImage.png";
 import { Link } from "react-scroll";
+import Resume from "../../assets/ShreyasResume(2023).pdf";
 const HomeScreen = () => {
   return (
     <div className="homescreen">
@@ -14,14 +15,19 @@ const HomeScreen = () => {
             Maharashtra,India.Interested in exploring things, I like to work on
             exciting projects.
           </p>
-          <Link
-            to="contact"
-            smooth={true}
-            duration={500}
-            className="contactbtn"
-          >
-            Contact Me
-          </Link>
+          <div className="contact-links">
+            <Link
+              to="contact"
+              smooth={true}
+              duration={500}
+              className="contactbtn"
+            >
+              Contact Me
+            </Link>
+            <a href={Resume} target="_blank" download className="resumeBtn">
+              Resume
+            </a>
+          </div>
         </div>
         <div className="profile">
           <img src={profileImg} alt="" />

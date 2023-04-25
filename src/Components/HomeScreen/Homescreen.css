@@ -34,7 +34,26 @@
 .heading h1 {
   font-size: 4.5rem;
 }
-.heading > .contactbtn {
+
+.heading > .contact-links {
+  /* background-color: blue; */
+  display: flex;
+  gap: 50px;
+
+  /* justify-content: space-between; */
+  align-items: center;
+}
+
+.heading > .contact-links .resumeBtn {
+  font-size: 1rem;
+  border: 1px solid var(--button-color);
+  text-decoration: none;
+  padding: 15px 25px;
+  color: var(--button-color);
+  cursor: pointer;
+  border-radius: 8px;
+}
+.heading > .contact-links .contactbtn {
   background-color: var(--button-color);
   font-size: 1rem;
   border: none;
@@ -69,7 +88,9 @@
   .heading h1 {
     font-size: 2.3rem;
   }
-
+  .heading > .contact-links {
+    justify-content: center;
+  }
   .profile > img {
     width: 200px;
   }
