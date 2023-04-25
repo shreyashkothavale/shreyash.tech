@@ -113,7 +113,8 @@
     z-index: 1200;
     margin-top: 15px;
   } */
-  .projects-container > .projects > .container:nth-child(2) {
+  .projects-container > .projects > .container:nth-child(2),
+  .container:nth-child(4) {
     flex-direction: column-reverse;
   }
   .social-links {
