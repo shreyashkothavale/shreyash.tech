@@ -64,7 +64,7 @@
   .skills .containers li {
     background-color: var(--background-color);
     /* padding: 15px; */
-    width: 150px;
+    width: 165px;
     height: 75px;
     display: flex;
     align-items: center;
