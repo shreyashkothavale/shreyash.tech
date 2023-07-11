@@ -114,7 +114,7 @@ const Navbar = () => {
                   <BsGithub size={24} />
                 </a>
                 <a
-                  href="https://www.linkedin.com/in/shreyash-kothavale-068164228/"
+                  href="https://www.linkedin.com/in/shreyas-kothavale-068164228/"
                   target="_blank"
                 >
                   <BsLinkedin size={24} />

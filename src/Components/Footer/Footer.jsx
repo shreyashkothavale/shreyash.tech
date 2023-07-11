@@ -9,7 +9,7 @@ const Footer = () => {
     <div className="footer-container" id="footer">
       <div className="form-container">
         <div className="icons">
-          <a href="https://www.linkedin.com/in/shreyash-kothavale-068164228/">
+          <a href="https://www.linkedin.com/in/shreyas-kothavale-068164228/">
             <FaLinkedin size={25} />
           </a>
 
@@ -19,7 +19,7 @@ const Footer = () => {
           <a href="https://www.instagram.com/shreyashjan18/">
             <FaInstagram size={25} />
           </a>
-          <a href="mailto:shreyash.kothavale@gmail.com">
+          <a href="mailto:shreyaskothavale01@gmail.com">
             <FaEnvelope size={25} />
           </a>
         </div>
