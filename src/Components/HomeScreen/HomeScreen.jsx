@@ -2,7 +2,7 @@ import React from "react";
 import "./Homescreen.css";
 import profileImg from "../../assets/MyImage.png";
 import { Link } from "react-scroll";
-import Resume from "../../assets/Resume(2023).pdf";
+import Resume from "../../assets/Shreyas Resume 2024.pdf";
 const HomeScreen = () => {
   return (
     <div className="homescreen">
